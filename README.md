@@ -4,7 +4,7 @@
 
 預期的行為是發佈後的發佈資料夾內不會有 `appsettings.Development.json`
 
-測試後發現必須明確指定 PublishProfile 的檔案才能讓 `.pubxml` 內的設定生效
+測試後發現必須明確指定 `PublishProfile` 的路徑才能讓 `.pubxml` 內的設定生效
 
 要實現不把 `appsettings.Development.json` 也複製過去，設定也必須這樣寫才會生效
 ```xml
