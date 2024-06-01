@@ -15,10 +15,10 @@
 
 如果使用以下寫法會沒有作用，但這寫法在 .net core web 專案是會生效的
 ```
-	<ItemGroup>
-		<Content Update="appsettings.Development.json">
-			<CopyToPublishDirectory>Never</CopyToPublishDirectory>
-			<CopyToOutputDirectory>Never</CopyToOutputDirectory>
-		</Content>
-	</ItemGroup>
+  <ItemGroup>
+  	<Content Update="appsettings.Development.json">
+  		<CopyToPublishDirectory>Never</CopyToPublishDirectory>
+  		<CopyToOutputDirectory>Never</CopyToOutputDirectory>
+  	</Content>
+  </ItemGroup>
 ```
