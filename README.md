@@ -14,7 +14,7 @@
 ```
 
 如果使用以下寫法會沒有作用，但這寫法在 .net core web 專案是會生效的
-```
+```xml
   <ItemGroup>
   	<Content Update="appsettings.Development.json">
   		<CopyToPublishDirectory>Never</CopyToPublishDirectory>
